@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Myth</title>
+	<link rel="stylesheet" href="style.css" media="screen">
+</head>
+<body class="home">
+	<header id="head">
+		<h1 id="logo"><img src="img/myth.png" alt="Myth" width="223" height="117"></h1>
+		<nav id="nav">
+			<ul id="menu">
+				<li class="menu-item item-home"><a href="index.html">Home</a></li>
+				<li class="menu-item item-marca"><a href="a-marca.html">A Marca</a></li>
+				<li class="menu-item item-lojas"><a href="lojas.html">Lojas</a></li>
+				<li class="menu-item item-colecao"><a href="colecao.html">Coleção</a></li>
+				<li class="menu-item item-clipping"><a href="clipping.html">Clipping</a></li>
+				<li class="menu-item item-franquia"><a href="#">Franquia</a></li>
+				<li class="menu-item item-contato"><a href="#">Contato</a></li>
+			</ul>
+		</nav>
+		<ul id="links">
+			<li class="link-item item-store"><a href="#" target="_blank"><img src="img/myth-store.png" alt="Myth Store" width="140" height="47"></a></li>
+			<li class="link-item item-facebook"><a href="#" target="_blank"><img src="img/ico-facebook.png" alt="Facebook" width="29" height="29"></a></li>
+			<li class="link-item item-twitter"><a href="#" target="_blank"><img src="img/ico-twitter.png" alt="Twitter" width="29" height="29"></a></li>
+			<li class="link-item item-instagram"><a href="#" target="_blank"><img src="img/ico-instagram.png" alt="Instagram" width="29" height="29"></a></li>
+			<li class="link-item item-blog"><a href="blog.html"><img src="img/blog.png" alt="Blog" width="64" height="24"></a></li>
+		</ul>
+		<div id="radio"></div>
+	</header>
+	<hr>
+	<div id="body">
+		<p id="highlight"><img src="img/imperio.jpg" alt="Império Inverno 2013" width="1024" height="825"></p>
+		<ul id="features">
+			<li class="feat-item item-blog"><a href="#"><img src="img/blog.jpg" alt="Blog" width="256" height="277"><span></span></a></li>
+			<li class="feat-item item-store"><a href="#"><img src="img/store.jpg" alt="Myth Store" width="256" height="277"><span></span></a></li>
+			<li class="feat-item item-facebook">
+				<div id="fb-root"></div>
+				<script>(function(d, s, id) {
+				var js, fjs = d.getElementsByTagName(s)[0];
+				if (d.getElementById(id)) return;
+				js = d.createElement(s); js.id = id;
+				js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1&appId=224321417625295";
+				fjs.parentNode.insertBefore(js, fjs);
+				}(document, 'script', 'facebook-jssdk'));</script>
+				<div class="fb-like-box" data-href="http://www.facebook.com/MythMyth" data-width="256" data-height="277" data-show-faces="false" data-stream="true" data-border-color="#b89c52" data-header="false"></div>
+			</li>
+		</ul>
+	</div>
+	<hr>
+	<footer id="foot">
+		<form action="/" method="post" id="newsform">
+			<fieldset>
+				<legend>Receba nossas novidades e fique por dentro do universo Myth</legend>
+				<p class="field field-nome">
+					<label for="field-nome">Nome</label><br>
+					<input type="text" name="nome" id="field-nome" placeholder="nome" required aria-required="true">
+				</p>
+				<p class="field field-email">
+					<label for="field-email">Email</label><br>
+					<input type="email" name="email" id="field-email" placeholder="email" required aria-required="true">
+				</p>
+				<p class="field field-estado">
+					<label for="field-estado">Estado</label><br>
+					<input type="text" name="estado" id="field-estado" placeholder="estado" required aria-required="true" maxlength="2">
+				</p>
+				<p class="field field-submit">
+					<button type="submit" id="field-submit">Enviar</button>
+				</p>
+			</fieldset>
+		</form>
+	</footer>
+</body>
+</html>
